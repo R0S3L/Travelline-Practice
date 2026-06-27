@@ -1,4 +1,4 @@
-/* Simple copy styles extracted from simple-copy.html */
+
 body{
     font-family:Manrope,Arial,sans-serif;
     margin:0;
@@ -31,7 +31,10 @@ nav a{
     font-size:32px;
     font-weight:700;
     color:#fff;
-    margin-bottom:16px
+    margin-bottom:16px;
+    display: flex;
+    justify-content: center;
+
 }
 .hero_p{
     font-size:18px;
@@ -118,4 +121,13 @@ footer{
 .small-note a{
     color:#5b9cff;
     text-decoration:none;
+}
+.error-banner {
+    background: #ffe0e0;
+    border: 1px solid #f44;
+    color: #c00;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-size: 14px;
 }
